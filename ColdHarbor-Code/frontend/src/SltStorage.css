@@ -1,0 +1,29 @@
+.label-primary-text {
+  font-size: clamp(1rem, 5vw, 1.5rem) !important;
+  max-width: 500px !important;
+  color: #383737 !important;
+  margin: 1.5rem 0rem !important;
+}
+
+select:focus { 
+  box-shadow:0 0 0 0.25rem #0DFE34 !important;
+}
+
+.for-scr-sm-desc, .for-scr-sm-selectors{
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .for-scr-big-desc, .for-scr-big-selectors{
+    position: absolute !important;
+    display: none;
+  }
+  .for-scr-sm-desc, .for-scr-sm-selectors{
+    margin-top: 0% !important;
+    margin-bottom: 0% !important;
+    display: block;
+  }
+  .for-scr-sm-desc{
+    margin-top: 6vh !important;
+  }
+}

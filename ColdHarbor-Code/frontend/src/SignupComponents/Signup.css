@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.signup-right-container img{
+    border-radius: 80px !important;
+}
+
+@media  (max-width: 900px) {
+    .signup-right-container{
+        display: none;
+    }
+}

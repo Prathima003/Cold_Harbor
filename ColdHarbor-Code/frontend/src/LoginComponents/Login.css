@@ -1,0 +1,94 @@
+.login-container {
+  padding-top: 0px;
+  margin-top: -20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-button {
+  padding: 1rem 2.5rem;
+  background-color: #0dfe34;
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-button:hover {
+  background-color: #12e335;
+}
+.login-button:focus {
+  box-shadow: 0 0 0 0.25rem #0dfe34 !important;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus {
+  box-shadow: 0 0 0 0.25rem #0dfe34 !important;
+}
+
+.login-text-section {
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.login-text-section,
+.about-section-text-container {
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.login-image {
+  height: 75%;
+  width: 75%;
+}
+
+.custom-btn{
+  padding: 0.6rem;
+  border-radius: 4px;
+}
+.custom-btn-white{
+  border: 1px solid #e5e7e9;
+  background-color: #fdfeff;
+  color: #000;
+  padding: 14px;
+}
+
+@media (max-width: 800px) {
+  .login-image {
+    display: none !important;
+  }
+  .login-image-seller{
+    display: none;
+  }
+  .login-container {
+    padding-top: 0px;
+    margin-top: -60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+   .login-container-buyer {
+    padding-top: 0px;
+    margin-top: -200px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5);
+}
